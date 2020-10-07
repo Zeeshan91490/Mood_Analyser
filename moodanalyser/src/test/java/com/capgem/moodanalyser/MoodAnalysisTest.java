@@ -1,9 +1,9 @@
 package com.capgem.moodanalyser;
-
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MoodAnalysisTest {
+public class uc3MoodAnalysisTest {
+
 	@Test
 	public void givenMessage_WhenSad_ShouldReturnSad() {
 			MoodAnalyser moodObj = new MoodAnalyser("I am in Sad Mood");
@@ -60,9 +60,7 @@ public class MoodAnalysisTest {
 			System.out.println(e.getMessage());
 			Assert.assertEquals("You can't have the message as EMPTY", e.getMessage());
 		}
-	}
-
-}
+	}}
 
 
-}
+
